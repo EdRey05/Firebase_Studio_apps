@@ -66,9 +66,9 @@ export function AssetAllocationCard({ transactions }: { transactions: Transactio
 
   const colors = useMemo(() => {
     const colorMap: { [key: string]: string } = {
-        'REIT ETF': getChartColor(6),
-        'REIT': getChartColor(3),
-        'Stock ETF': getChartColor(1),
+        'REIT ETF': getChartColor(1),
+        'REIT': getChartColor(2),
+        'Stock ETF': getChartColor(3),
         'Individual Stock': getChartColor(0),
     };
     return colorMap;
